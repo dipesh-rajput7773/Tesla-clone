@@ -1,0 +1,51 @@
+section{
+    height: 100vh;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+section .modelName h1{
+    font-size: 3rem;
+}
+
+section .modelName{
+    margin-top: 6rem;
+    text-align: center;
+}
+section .cta{
+    margin-bottom: 4rem;
+    text-align: center;
+}
+section .cta a{
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 3px;
+    width:250px;
+    text-align: center;
+    padding: 10px 30px;
+    margin: 0 0.8rem 2rem 0;
+}
+
+
+section .cta .left{
+   background: rgba(23, 26, 32, 0.8);
+   color: #fff;
+}
+section .cta .right{
+   background: #fff;
+   color: #000;
+}
+
+section .cta img{
+   width: 40px;
+   display: inline-block;
+   padding: 2rem 0;
+ }
+
